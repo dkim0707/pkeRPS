@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="RPS.css">
+    <script src="RPS.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="gary">
+        <h1>Gary</h1>
+        <img src="gary.png">
+    </div>
+    <h1>Choose your Pokemon!</h1>
+    <form>
+        <input type="radio" id="bulb" name="playerPoke" value="bulb">
+        <label for="bulb"><img src="Bulb.png"></label>
+        <input type="radio" id="squirtle" name="playerPoke" value="squirtle">
+        <label for="squirtle"><img src="Squirtle.png"></label>
+        <input type="radio" id="charmander" name="playerPoke" value="charmander">
+        <label for="charmander"><img src="Charmander.png"></label>
+        <button id="startRound" onclick="round()">I choose you!</button>
+    </form>
+    <div>
+        <h1>Score</h1>
+        <h2>Player: <span id="playerScore">0</span></h2>
+        <h2>Gary: <span id="compScore">0</span></h2>
+    </div>
+</body>
+</html>

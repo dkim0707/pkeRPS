@@ -1,0 +1,25 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+input[type="radio"]{
+    visibility: hidden;
+}
+
+input[type="radio"]:checked + label>img{
+    border: #008000 1px solid;
+}
+
+button {
+    display: block;
+}
+
+#gary {
+    float: right;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+}
