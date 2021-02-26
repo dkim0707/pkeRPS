@@ -12,6 +12,8 @@
     <div id="gary">
         <h1>Gary</h1>
         <img src="gary.png">
+        <img src="pokeball.png" id="rivalPoke">
+        <h2 id="rivalText">It's you again, gonna be too easy!</h2>
     </div>
     <h1>Choose your Pokemon!</h1>
     <form>
@@ -21,9 +23,10 @@
         <label for="squirtle"><img src="Squirtle.png"></label>
         <input type="radio" id="charmander" name="playerPoke" value="charmander">
         <label for="charmander"><img src="Charmander.png"></label>
-        <button id="startRound" onclick="round()">I choose you!</button>
+        <input type="button" id="startRound" onclick="round()" value="I choose you!"></input>
     </form>
     <div>
+        <h1 id="result"></h1>
         <h1>Score</h1>
         <h2>Player: <span id="playerScore">0</span></h2>
         <h2>Gary: <span id="compScore">0</span></h2>
